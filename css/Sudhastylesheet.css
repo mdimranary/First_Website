@@ -1,0 +1,460 @@
+/* ===============================
+   Author: {YOUR NAME HERE}
+   Date:   {DATE HERE}
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Brad Hussey
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+body{
+	
+	background: #ADD8E6;
+	color: #d17f38;
+	Font-size: 20px;
+	Font-family: 'Open Sans', 'Helvetica Neue' , Helvetica,  Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	
+	
+}
+
+*{
+	
+	margin: -10px 0 0 0;
+	font-family: 'Cookie', cursive;
+	
+}
+
+marquee{
+	
+	margin: 0 0 -30px 0;
+	font-size: 30px;
+}
+
+form{
+
+	margin: 0 10px 0 5px;
+	
+	
+	
+}
+
+legend:active{
+	
+	font-size: 50px;
+}
+
+fieldset {
+border: #f2f3ee 3px solid;
+}
+
+
+
+form legend {
+	background: white;
+	margin: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	color: #ADD8E6;
+	border: blcak;
+	border-radius: 4px;
+	border: #FFF8DC 5px solid;
+	padding: 0 15px 0 15px;
+}
+
+
+.container{
+	width: 924px;
+	margin: 0 auto;
+	padding: 30px 24px;
+	
+cursor: pointer;
+	
+}
+
+/* Typography */
+
+
+h1,h2 {
+	color: #d17f38;
+	font-size: 34px;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+	font-family: 'Love Ya Like A Sister' , cursive;
+	cursor: pointer;
+	
+}
+
+
+
+h1{
+	text-align: center;
+	padding: 0 0 20px;
+	background: url('../images/header-divider.png') bottom right no-repeat;
+	background-position: right 180px bottom;
+	cursor: pointer;
+	
+
+}
+
+
+.goals{
+	padding: 0 0 20px;
+	background: #ADD8E6 url('../images/header-divider.png') bottom left no-repeat;
+	background-position: left 350px bottom;
+	cursor: pointer;
+	float: right;
+	border: solid;
+background: white;
+border-radius: 4px;
+	border: #ADD8E6 6px solid;
+	padding:10px;
+margin: -10px 0 -10px 0;
+	
+	
+
+}
+
+
+
+blockquote{
+	margin: 0 15px 0 15px;
+	text-align: justify;
+	font-family: 'Cookie', cursive;
+	font-size: 27px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	
+	
+
+
+
+}
+
+h1 em{
+	font-style: normal;
+	color: #4b2707;
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 34px;
+	
+
+}
+
+h3 {
+	margin: 0;
+	
+
+}
+
+p{
+	font: 1px;
+	
+}
+
+p.lead {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin: center:
+	
+
+}
+
+
+p{
+	margin: 0;
+	
+}
+
+
+
+a:link{
+	color: #d17f38;
+	cursor: pointer;
+}
+
+a:visited{
+	
+	color: #d17f38
+}
+
+a:hover{
+	color: #090;
+		
+}
+
+hr{
+	
+	border: none;
+	height: 33px;
+	width: 333px;
+	margin: 30px auto;
+	background: url('../images/divider.png') center center repeat;
+
+	
+	
+}
+
+
+
+/* Header */
+
+header nav {
+	
+	text-align: center;
+	
+}
+
+header nav  ul{
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	line-height: 141px;
+	
+}
+
+li.logo img{
+   vertical-align : middle;
+}
+
+nav li{
+    display:inline;
+    text-align:center;
+    vertical-align:middle;      // <--- Add this in property
+}
+
+header nav ul li{
+		display: inline-block;
+		padding: 0 20px;
+		
+		
+		
+}
+
+header nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+header nav ul li a:hover{
+	color: #4b2707;
+	padding-top: 20px;
+	background: url('../images/tiny-donut.png') top center no-repeat;
+}
+
+
+header nav ul li#logo a{
+	display: block;
+	width: 326px;
+	height: 250px;
+	background: #ADD8E6 url('../images/heart2.gif') left center no-repeat;
+	text-indent: -1300px;
+	margin: 0 -80px 0 0;
+	
+}
+
+#b {
+	color : black;
+	
+}
+
+
+/* Hero */
+
+ #hero{
+	 
+	 background: #e8c04f url('../images/bg-tile-yellow.gif') top left repeat;
+	 
+	 
+ }
+ 
+ #hero .container1{
+	 
+	 position: relative;
+	 float: left;
+ }
+
+
+/*#hero .large-ribbbon {
+	height: 190px;
+	width: 150px;
+	background: url('../images/fresh-whole-ingredients.png') top left no repeat;
+	text-indent: -999999px;
+	position: absolute;
+	top:0;
+	right:0;
+}*/
+
+
+/* The Whole Story */
+
+
+#block{
+	
+	width:450 px;
+	margin-right: 10px;
+	padding: 0;
+	font-size: 20px
+	
+	
+}
+
+
+/* News & Events */
+
+time{
+	color: #d17f38;
+	font-size: 14px;
+}
+
+
+
+/* Footer */
+
+footer.main{
+	
+	
+	background: #F4A460;
+	color: white;
+	font-size: 12px;
+	text-align: left;
+
+	
+	
+	
+}
+
+footer.main a:hover{
+	
+	color: #f2f3ee;
+	padding:5px 0;
+	
+}
+
+#uncopyright{
+	width: 240px;
+	text-align:right 300px bottom;
+	padding: 10px 0 10px 50px;
+	
+	
+	
+}
+
+#uncopyright{
+	background: url('../images/icon-recycle.png') center left no-repeat;
+	
+	
+	
+	
+}
+
+
+
+
+
+.wrapper{
+	
+	margin: 2em auto;
+	width: 800px;
+	position: relative;
+}
+
+.cycle{
+	
+	position: relative;
+	top: 20px;
+	left :100px;
+	-webkit-animation-name: ride;
+	-webkit-animation-duration: 5s;
+	 -webkit-animation-delay: 2s; 
+     animation-delay: 2s;
+	
+}
+
+
+
+@-webkit-keyframes ride{
+	from{-webkit-transform: translateX(0px);}
+	to{-webkit-transform: translateX(1100px);}
+	from { opacity: 0}
+  to   { opacity: 1}
+   opacity: 0;
+    -moz-transition: opacity 5s;
+    -webkit-transition: opacity 5s;
+    -o-transition: opacity 5s;
+    transition: opacity 5s;
+	 -webkit-animation-delay: 3s; 
+     animation-delay: 3s;
+
+}
+
+
+
+
+
+hr {
+	border: none;
+	height: 33px;
+	width: 333px;
+	margin: 30px auto;
+	background: url('../images/divider.png') center center no-repeat;
+}
+
+
+
+#Time1{
+color:  #d17f38;
+text-align: center;
+margin: -35px 0 0 0;
+font-family: 'Cookie', cursive;
+font-size: 28px;
+	
+
+
+}
+
+
+
+
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
+
+
+
